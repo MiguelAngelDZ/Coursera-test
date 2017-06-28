@@ -1,0 +1,57 @@
+* {
+    font-family: Arial;
+}
+
+a.linkinterno:link, a.linkinterno:visited {
+    text-decoration: none; 
+    border: solid;
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin-bottom: 1px;
+    }
+    
+a.linkinterno:hover, a.linkinterno:active{ 
+      background-color: grey;
+      }
+
+section li {
+    list-style: none;
+    }
+
+
+.seccinter {
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;  
+        }
+
+.linkexterno {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+        }
+
+h1 {
+    color: green;
+}
+
+p {
+    color: blue;
+}
+
+section.recetaorden {
+color: red;
+font-size: 16px;
+font-weight: bold;  
+        }
+
+div li:nth-child(3) {
+    font-size: 28px;
+    color: green;
+        }
+
+section li:nth-child(2){
+    color: green
+        }
