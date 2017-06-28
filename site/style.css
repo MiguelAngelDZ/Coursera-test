@@ -55,3 +55,8 @@ div li:nth-child(3) {
 section li:nth-child(2){
     color: green
         }
+
+.galgadot {
+/*box-sizing: border-box; por qué no esto?*/
+display: flex;
+}
