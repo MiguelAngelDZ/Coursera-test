@@ -1,5 +1,6 @@
 * {
     font-family: Arial;
+    box-sizing: border-box; 
 }
 
 a.linkinterno:link, a.linkinterno:visited {
@@ -57,6 +58,20 @@ section li:nth-child(2){
         }
 
 .galgadot {
-/*box-sizing: border-box; por qué no esto?*/
+box-sizing: border-box; 
 display: flex;
+}
+
+div.doscolumnas p {
+   width: 50%;
+  float: left;
+padding: 10px;
+font-weight: bold;
+}
+
+/* "clear: right" me dice que ningún elemento
+dentro de section permitirá que nada se
+mueva a la derecha de él*/
+.textoregular {
+    clear: right;: 
 }
